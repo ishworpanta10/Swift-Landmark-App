@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//   LandmarkDetail.swift
 //  Landmarks
 //
-//  Created by Ishwor on 06/03/2024.
+//  Created by Ishwor on 12/03/2024.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
         VStack {
             MapView().frame(height: 300)
@@ -32,6 +32,7 @@ struct ContentView: View {
                 Text("About Kathmandu Fun Park".uppercased()).font(.title2)
                 
                 Text("This is located in kathmandu valley and famous for different fun games for children")
+               
                 
             }
             .padding()
@@ -41,5 +42,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    LandmarkDetail()
 }
